@@ -2,7 +2,7 @@
 
 A simple and elegant Body Mass Index (BMI) calculator built with Node.js, Express, and vanilla JavaScript.
 
-## 📋 Features
+##  Features
 
 - **User-friendly Interface**: Clean and responsive design with color-coded results
 - **BMI Calculation**: Accurate BMI calculation using the standard formula
@@ -11,7 +11,7 @@ A simple and elegant Body Mass Index (BMI) calculator built with Node.js, Expres
 - **Health Advice**: Provides basic health recommendations based on BMI category
 - **Responsive Design**: Works seamlessly on desktop, tablet, and mobile devices
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -41,7 +41,7 @@ npm start
 http://localhost:3000
 ```
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 bmi-calculator/
@@ -59,13 +59,13 @@ bmi-calculator/
 └── README.md            # Documentation
 ```
 
-## 🔧 Technologies Used
+##  Technologies Used
 
 - **Backend**: Node.js, Express.js
 - **Frontend**: HTML5, CSS3, JavaScript
 - **Middleware**: body-parser
 
-## 📊 BMI Categories
+##  BMI Categories
 
 | Category | BMI Range |
 |----------|-----------|
@@ -74,20 +74,20 @@ bmi-calculator/
 | Overweight | 25 ≤ BMI < 29.9 |
 | Obese | BMI ≥ 30 |
 
-## 🎨 Color Coding
+##  Color Coding
 
 - **Blue**: Underweight
 - **Green**: Normal weight
 - **Yellow**: Overweight
 - **Red**: Obese
 
-## 🧪 Formula
+##  Formula
 
 ```
 BMI = weight (kg) / height² (m²)
 ```
 
-## 🛡️ Validation
+##  Validation
 
 The application includes comprehensive validation:
 
@@ -97,7 +97,7 @@ The application includes comprehensive validation:
 - Validates positive numbers
 - Ensures reasonable value ranges
 
-## 📝 API Endpoints
+##  API Endpoints
 
 ### GET `/`
 Returns the main HTML form for BMI input.
@@ -115,19 +115,19 @@ Calculates BMI and returns the result page.
 
 **Response:** HTML page with calculated BMI and category
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License.
 
-## 👨‍💻 Author
+##  Author
 
 Your Name
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Assignment from [Your University/Course Name]
 - BMI calculation standards from WHO guidelines
